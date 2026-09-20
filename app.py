@@ -283,7 +283,7 @@ def logout():
 
 @app.route("/get_logs")
 def get_logs():
-    return jsonify({"logs": get_logs()})
+    return jsonify({"logs": logs})
 
 # ---------- Main ----------
 if __name__ == "__main__":
